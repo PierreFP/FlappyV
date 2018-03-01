@@ -1,0 +1,33 @@
+body{
+  background-color: antiquewhite;
+  height: 570px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section{
+  width: 350px;
+  height: 560px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(background.png);
+  background-size: cover;
+  overflow: hidden;
+}
+img{
+    width: 50px;
+}
+
+#tuyo{
+    position: absolute;
+    left: 900px;
+    bottom: 350px;
+}
+
+#tuyo2{
+    position: absolute;
+    right: 900px;
+    top: -50px;
+
+}
